@@ -1,5 +1,5 @@
 # Wakey-Wakey
-This repository contains the source code for the paper Wakey-Wakey: Animate Text by Mimicking Characters in a GIF
+This repository contains the source code for the paper Wakey-Wakey: Animate Text by Mimicking Characters in a GIF.
 
 ![Interface](assets/interface.png)
 
@@ -13,7 +13,7 @@ The frontend of Wakey-Wakey is built with Vue.js, providing an interactive user 
 
 ## Methodology
 
-1. **Driving Animation Key Point Extraction**: The project first extracts key points from the given GIF using a pre-trained First Order Motion Model (FOMM).
+1. **Driving Animation Key Point Extraction**: The project first extracts key points from the given GIF using a pre-trained First Order Motion Model  [FOMM](https://github.com/AliaksandrSiarohin/first-order-model).
 2. **Key Point and Text Control Point Alignment**: The extracted key points are then aligned with the control points of the text to generate the animated text.
 
 The final output is a GIF that animates the input text according to the movements in the input GIF.
@@ -28,7 +28,7 @@ Clone the repository and navigate into the project directory. Then follow the st
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-github-username>/wakey-wakey.git
+git clone https://github.com/KeriYuu/Wakey-Wakey.git
 cd wakey-wakey
 
 # Set up the backend
