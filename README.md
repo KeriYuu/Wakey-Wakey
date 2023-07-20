@@ -3,7 +3,7 @@ This repository contains the source code for the paper Wakey-Wakey: Animate Text
 
 ![Interface](assets/interface.png)
 
-## Visualization System
+## Authoring System
 
 The frontend of Wakey-Wakey is built with Vue.js, providing an interactive user interface. It consists of three main views:
 
@@ -11,7 +11,7 @@ The frontend of Wakey-Wakey is built with Vue.js, providing an interactive user 
 - **Correction View**: Users can adjust the key points of the animated text at specific frames.
 - **Refinement View**: Users can refine the animation by adjusting the glyph's control points and configuring the algorithm’s parameters.
 
-## Methodology
+## Key Components
 
 1. **Driving Animation Key Point Extraction**: The project first extracts key points from the given GIF using a pre-trained First Order Motion Model  [FOMM](https://github.com/AliaksandrSiarohin/first-order-model).
 2. **Key Point and Text Control Point Alignment**: The extracted key points are then aligned with the control points of the text to generate the animated text.
@@ -42,11 +42,12 @@ cd ../frontend
 npm install
 ```
 
-## Pretrained Model
+### Download Pretrained Model
 
 Download the pretrained [FOMM](https://github.com/AliaksandrSiarohin/first-order-model) model using the following command:
 
 ```bash
+cd ../frontend/models
 wget https://drive.google.com/u/0/uc?id=1UT8aBPrjMUPTCmbtDsKk-BCVgIHP5WFc&export=download
 ```
 
