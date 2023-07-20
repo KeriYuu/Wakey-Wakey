@@ -48,7 +48,7 @@ Download the pretrained [FOMM](https://github.com/AliaksandrSiarohin/first-order
 
 ```bash
 cd ../backend/models
-wget https://drive.google.com/u/0/uc?id=1UT8aBPrjMUPTCmbtDsKk-BCVgIHP5WFc&export=download
+wget https://disk.yandex.com/d/lEw8uRm140L_eQ/mgif-cpk.pth.tar
 ```
 
 ## Running the Project
