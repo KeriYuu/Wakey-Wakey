@@ -1,5 +1,5 @@
 ffmpeg-python==0.2.0
-imageio==2.22.0
+imageio==2.5.0
 imageio-ffmpeg==0.4.7
 matplotlib==2.2.2
 numpy==1.21.0
@@ -7,9 +7,14 @@ pandas==0.23.4
 python-dateutil==2.7.3
 pytz==2018.5
 PyYAML==6.0
-scikit-image==0.14.2
+scikit-image==0.18.0
 scikit-learn==0.19.2
 scipy==1.1.0
 torch==1.0.0
 torchvision==0.2.1
 tqdm==4.64.1
+flask==2.2.5
+flask-cors==4.0.0
+SQLAlchemy==2.0.19
+opencv-python==4.8.0.74
+pillow==6.2.2
