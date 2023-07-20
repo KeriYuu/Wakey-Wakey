@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "Please kindly cite our paper if you would like to utilize some parts of our work."
-abstract: Wakey-Wakey is an authoring tool for kinetic typography featuring on GIF-guided generation.
+abstract: Wakey-Wakey is an authoring tool for kinetic typography featuring GIF-guided generation.
 authors:
   - family-names: Xie
     given-names: Liwenhan
@@ -23,31 +23,33 @@ authors:
 title: Wakey-Wakey
 version: 1.0.0
 date-released: "2023-07-20"
+doi: 10.1145/3586183.3606813
+url: https://github.com/KeriYuu/Wakey-Wakey
 keywords:
   - kinetic typography
   - animation
   - motion transfer
   - authoring tools
 license: "MIT License"
-references:
-  - authors:
-      - family-names: Xie
-        given-names: Liwenhan
-      - family-names: Zhou
-        given-names: Zhaoyu
-      - family-names: Yu
-        given-names: Kerun
-      - family-names: Wang
-      - given-names: Yun
-      - family-names: Qu
-      - given-names: Huamin     
-      - family-names: Chen
-      - given-names: Siming
-    - name: "Wakey-Wakey: Animate Text by Mimicking Characters in a GIF"
-    doi: 10.1145/3586183.3606813
-    conference:
-        name: "The 36th ACM Annual ACM Symposium on User Interface Software and Techonolog (UIST '23)"
-    title: "Wakey-Wakey: Animate Text by Mimicking Characters in a GIF"
-    type: proceedings
-    year: 2023
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Xie
+      given-names: Liwenhan
+    - family-names: Zhou
+      given-names: Zhaoyu
+    - family-names: Yu
+      given-names: Kerun
+    - family-names: Wang
+    - given-names: Yun
+    - family-names: Qu
+    - given-names: Huamin     
+    - family-names: Chen
+    - given-names: Siming
+  doi: 10.1145/3586183.3606813
+  conference:
+      name: "The 36th ACM Annual ACM Symposium on User Interface Software and Technology (UIST '23)"
+  title: "Wakey-Wakey: Animate Text by Mimicking Characters in a GIF"
+  type: proceedings
+  year: 2023
   
