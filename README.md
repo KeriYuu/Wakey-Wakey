@@ -47,7 +47,7 @@ npm install
 Download the pretrained [FOMM](https://github.com/AliaksandrSiarohin/first-order-model) model using the following command:
 
 ```bash
-cd ../frontend/models
+cd ../backend/models
 wget https://drive.google.com/u/0/uc?id=1UT8aBPrjMUPTCmbtDsKk-BCVgIHP5WFc&export=download
 ```
 
