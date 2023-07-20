@@ -29,7 +29,7 @@ Clone the repository and navigate into the project directory. Then follow the st
 ```bash
 # Clone the repository
 git clone https://github.com/KeriYuu/Wakey-Wakey.git
-cd wakey-wakey
+cd wakey-wakey/src
 
 # Set up the backend
 cd backend
