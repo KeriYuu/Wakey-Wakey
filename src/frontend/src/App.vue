@@ -265,7 +265,7 @@ export default {
   data(){
     return {
       // header
-      headerImg:require("../public/WechatIMG660.jpeg"),
+      headerImg:require("../public/user.jpeg"),
       stepIndex: 0,
       mode: 'default',
       // step 1
