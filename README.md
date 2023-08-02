@@ -12,7 +12,7 @@ Clone the repository and navigate into the project directory. Then follow the st
 ```bash
 # Clone the repository
 git clone https://github.com/KeriYuu/Wakey-Wakey.git
-cd wakey-wakey/src
+cd Wakey-Wakey/src
 
 # Set up the backend
 cd backend
@@ -25,7 +25,8 @@ cd ../frontend
 npm install
 ```
 
-Download the pre-trained [FOMM model](https://github.com/AliaksandrSiarohin/first-order-model) using the following command:
+Download the pre-trained [FOMM model](https://github.com/AliaksandrSiarohin/first-order-model).
+You may use the following command or mannually download the file.
 
 ```bash
 cd ../backend/models
