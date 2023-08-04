@@ -16,7 +16,7 @@ cd Wakey-Wakey/src
 
 # Set up the backend
 cd backend
-conda create -n wakey python==3.7
+conda create -n wakey python==3.10
 conda activate wakey
 pip install -r requirements.txt
 
