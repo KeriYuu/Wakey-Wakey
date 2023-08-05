@@ -60,12 +60,19 @@ The interactive user interface of Wakey-Wakey consists of three main views:
 - **Correction View**: Adjust the key points of the animated text at specific frames. Click on the right arrow for the next step.
 - **Refinement View**: You may refine the animation by adjusting the glyph's control points and configuring the algorithm’s parameters.
 
-You can check the logs on the backend to monitor the generation progress.
+
 
 ## Key Components
 
 1. **Driving Animation Key Point Extraction**: The project first extracts key points from the given GIF using a pre-trained [First-Order Motion Model (FOMM)](https://github.com/AliaksandrSiarohin/first-order-model).
 2. **Key Point and Text Control Point Alignment**: The extracted key points are then aligned with the control points of the text to generate the animated text.
+
+The final output is a GIF that animates the input text according to the movements in the input GIF.
+
+## Performance
+An automatic generation takes around 300ms/frame (CPU: Intel i7 4.9 GHz). You can check the logs on the backend to monitor the generation progress.
+
+
 
 ## Additional Notes
 ```bibtex
@@ -79,10 +86,3 @@ You can check the logs on the backend to monitor the generation progress.
     address = {New York, NY, USA}
 }
 ```
-
-
-The final output is a GIF that animates the input text according to the movements in the input GIF.
-
-## Performance
-
-Wakey-Wakey is designed for efficiency. An automatic generation takes around 300ms/frame (CPU: Intel i7 4.9 GHz).
