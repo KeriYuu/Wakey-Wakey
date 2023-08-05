@@ -115,7 +115,6 @@ def generate(opt, specified=False, skeypoints=None, dkeypoints=None):
         dkeypoints = (np.array(dkeypoints).astype(np.float32) - 128) / 128
 
     source_image = imageio.imread(opt['source_image'])
-
     reader = imageio.get_reader(opt['driving_video'])
     # fps = opt['fps']
     driving_video = []
@@ -126,11 +125,8 @@ def generate(opt, specified=False, skeypoints=None, dkeypoints=None):
         pass
     fps = max(1000 / (1e-8 + reader.get_meta_data()['duration']), 5)
     reader.close()
-    print('SHAPPPPeee', driving_video[0].shape)
     source_image = resize(source_image, (256, 256))[..., :3]
-
     driving_video = [resize(frame, (256, 256))[..., :3] for frame in driving_video]
-    print('SHAPPPPeee', (np.array(driving_video)).shape)
     generator, kp_detector = load_checkpoints(config_path=opt['config'], checkpoint_path=opt['checkpoint'], cpu=opt['cpu'])
 
 
