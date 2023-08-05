@@ -26,7 +26,7 @@ npm install
 ```
 
 Download the pre-trained [FOMM model](https://github.com/AliaksandrSiarohin/first-order-model).
-You may use the following command or mannually download the file.
+You may use the following command or manually download the file.
 
 ```bash
 cd ../backend/models
@@ -54,16 +54,32 @@ Now, navigate to `http://localhost:8080` in your web browser to use the applicat
 ## Authoring System
 ![Interface](assets/interface.png)
 
-The frontend of Wakey-Wakey is built with Vue.js, providing an interactive user interface. It consists of three main views:
+The interactive user interface of Wakey-Wakey consists of three main views:
 
-- **Input View**: Users input text and customize its static appearance. They can also upload and preview the driving GIF.
-- **Correction View**: Users can adjust the key points of the animated text at specific frames.
-- **Refinement View**: Users can refine the animation by adjusting the glyph's control points and configuring the algorithm’s parameters.
+- **Input View**: Input text and customize its static appearance. You may also upload and preview the driving GIF. Click on the right arrow for the next step.
+- **Correction View**: Adjust the key points of the animated text at specific frames. Click on the right arrow for the next step.
+- **Refinement View**: You may refine the animation by adjusting the glyph's control points and configuring the algorithm’s parameters.
+
+You can check the logs on the backend to monitor the generation progress.
 
 ## Key Components
 
 1. **Driving Animation Key Point Extraction**: The project first extracts key points from the given GIF using a pre-trained [First-Order Motion Model (FOMM)](https://github.com/AliaksandrSiarohin/first-order-model).
 2. **Key Point and Text Control Point Alignment**: The extracted key points are then aligned with the control points of the text to generate the animated text.
+
+## Additional Notes
+```bibtex
+@inproceedings{
+    title = {Wakey-Wakey: Animate Text by Mimicking Characters in a GIF},
+    author = {Xie, Liwenhan and Zhou, Zhaoyu and Yu, Kerun and Wang, Yun and Qu, Huamin and Chen, Siming},
+    booktitle = {Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology},
+    doi = {10.1145/3586183.3606813},
+    year = {2023},
+    publisher = {ACM},
+    address = {New York, NY, USA}
+}
+```
+
 
 The final output is a GIF that animates the input text according to the movements in the input GIF.
 
