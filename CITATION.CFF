@@ -50,6 +50,6 @@ preferred-citation:
   conference:
       name: "The 36th ACM Annual ACM Symposium on User Interface Software and Technology (UIST '23)"
   title: "Wakey-Wakey: Animate Text by Mimicking Characters in a GIF"
-  type: inproceedings
+  type: proceedings
   year: 2023
   
