@@ -76,12 +76,14 @@ An automatic generation takes around 300ms/frame (CPU: Intel i7 4.9 GHz). You ca
 
 ## Additional Notes
 ```bibtex
-@inproceedings{
+@inproceedings{xie2023wakey,
     title = {Wakey-Wakey: Animate Text by Mimicking Characters in a GIF},
     author = {Xie, Liwenhan and Zhou, Zhaoyu and Yu, Kerun and Wang, Yun and Qu, Huamin and Chen, Siming},
     booktitle = {Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology},
     doi = {10.1145/3586183.3606813},
     year = {2023},
+    articleno = {98},
+    numpages = {14},
     publisher = {ACM},
     address = {New York, NY, USA}
 }
